@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: fantasy;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s;
+}
+.navbar ul li a:hover{
+    background-color: white ;
+    color: black;
+    box-shadow: 0 0 10 white;
+}
+
+body {
+    background: cyan;
+}
+
+h1
+{
+ color: black;
+ outline-color:red ;
+}
+a
+{
+
+    color: rgb(55, 0, 255);
+}
+.paragraaf{
+    float:right;
+    font-family: cursive;
+    color: black;
+    
+}
+.dark-mode {
+    background: rgb(58, 57, 57);
+  }
+  
+  .light-mode {
+    background: cyan;
+  }
+ 
+  
+  .thema-button{
+    margin-left:30% ;
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s;
+    background-color: rgba(0, 0, 0, 0.5);
+    user-select: none;
+  }
+  .thema-button:hover{
+      background-color: white;
+      color: black;
+      box-shadow: 0 0 10 white;
+  }

@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(45deg, green , yellow);
+    overflow-x: hidden;
+}
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background-color:black ;
+    color: white;
+    user-select: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.buttons {
+    display:grid ;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999 ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:white  ;
+    user-select: none;
+}  
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: black;
+    color: white;
+}
+
+.button:hover{
+    background-color: grey;
+    color: white;
+    transition: 0.5s ease-out;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: fantasy;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s;
+}
+.navbar ul li a:hover{
+    background-color: white ;
+    color: black;
+    box-shadow: 0 0 10 white;
+}
